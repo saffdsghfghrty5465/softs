@@ -4,7 +4,7 @@ import os
 
 GLOBAL_SOFT_INFO = {
     "🇻​​​​​ 🇪​​​​​ 🇷​​​​​ 🇸 ​​​​​🇮 ​​​​​🇴 ​​​​​🇳​​​​": "0.3",
-    "🇦​​​​​ 🇺​​​​​ 🇹​​​​​ 🇭 ​​​​​🇴​​​​​ 🇷": "Satoshi",
+    "🇦​​​​​ 🇺​​​​​ 🇹​​​​​ 🇭 ​​​​​🇴​​​​​ 🇷": "DXX",
 }
 #JKHKJHKJDHKJFHSDKIJFHS:PHDgfohqwergoiuhewprhgiodfhv;pkahsr[oifghqwe[oighasdhbngvkjadhoifguewoiugqwioueg[poihasdfpobghad;fhg;jdahfgk;jsdhf;ghaeoi[ghroeihgohdf;jkghsd;hgf;dshfgjhsdfkjghdfjk]]]]
 #JKHKJHKJDHKJFHSDKIJFHS:PHDgfohqwergoiuhewprhgiodfhv;pkahsr[oifghqwe[oighasdhbngvkjadhoifguewoiugqwioueg[poihasdfpobghad;fhg;jdahfgk;jsdhf;ghaeoi[ghroeihgohdf;jkghsd;hgf;dshfgjhsdfkjghdfjk]]]]
@@ -9657,7 +9657,7 @@ def console_clear() -> None:
 
 def banner(nickname: str) -> None:
     romania_flag = (
-        f'{COLOR_CODE["RED"]}[@] Информация > {COLOR_CODE["GREEN"]}Satoshi не несет ответственности за ваши действия, вызванные данным софтом.\n'
+        f'{COLOR_CODE["RED"]}[@] Информация > {COLOR_CODE["GREEN"]}DXX не несет ответственности за ваши действия, вызванные данным софтом.\n'
         f'{COLOR_CODE["GREEN"]}Этот софт создан исключительно для развлечения и не должен использоваться для нарушения законов.\n'
         f'{COLOR_CODE["YELLOW"]}Пожалуйста, помните, что де-анонимизация может нарушать законы вашей страны. В некоторых странах, таких как Россия и Украина, нарушение правил об анонимности может привести к следующим юридическим последствиям:\n'
         f'{COLOR_CODE["YELLOW"]}В России, согласно статье 137.1 Уголовного кодекса Российской Федерации, де-анонимизация может быть наказуемой и влечь административные или уголовные санкции.\n'
@@ -13346,12 +13346,12 @@ def banner(nickname: str) -> None:
 #JKHKJHKJDHKJFHSDKIJFHS:PHDgfohqwergoiuhewprhgiodfhv;pkahsr[oifghqwe[oighasdhbngvkjadhoifguewoiugqwioueg[poihasdfpobghad;fhg;jdahfgk;jsdhf;ghaeoi[ghroeihgohdf;jkghsd;hgf;dshfgjhsdfkjghdfjk]]]]
     print(romania_flag)
     print(COLOR_CODE["RED"])
-    print(f'\n░██████╗░█████╗░████████╗░█████╗░░██████╗██╗░░██╗██╗')
-    print(f'██╔════╝██╔══██╗╚══██╔══╝██╔══██╗██╔════╝██║░░██║██║')
-    print(f'╚█████╗░███████║░░░██║░░░██║░░██║╚█████╗░███████║██║')
-    print(f'░╚═══██╗██╔══██║░░░██║░░░██║░░██║░╚═══██╗██╔══██║██║')
-    print(f'██████╔╝██║░░██║░░░██║░░░╚█████╔╝██████╔╝██║░░██║██║')
-    print(f'╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░░╚════╝░╚═════╝░╚═╝░░╚═╝╚═╝')
+    print(f'\n              ██████╗░██╗░░██╗██╗░░██╗')
+    print(f'              ██╔══██╗╚██╗██╔╝╚██╗██╔╝')
+    print(f'              ██║░░██║░╚███╔╝░░╚███╔╝░')
+    print(f'              ██████╔╝██╔╝╚██╗██╔╝╚██╗')
+    print(f'              ██████╔╝██╔╝╚██╗██╔╝╚██╗')
+    print(f'              ╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝')
     print(f'{COLOR_CODE["RESET"]}           {COLOR_CODE["PINK"]}|Author: {COLOR_CODE["YELLOW"]}{nickname}{COLOR_CODE["RESET"]} {COLOR_CODE["PINK"]}Version {version}')
     input(f'\n{COLOR_CODE["CYAN"]}{COLOR_CODE["BOLD"]}[{COLOR_CODE["RED"]}!{COLOR_CODE["CYAN"]}] {COLOR_CODE["LI_G"]}' +
           f'Чтобы принять правила, нажмите{COLOR_CODE["DARK"]} {COLOR_CODE["RESET"]}ENTER ')
